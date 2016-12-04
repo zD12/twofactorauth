@@ -146,6 +146,16 @@ websites:
       img: mystudylife.png
       tfa: No
 
+    - name: Michigan State University (MSU)
+      url: https://msu.edu
+      img: msu.png
+      tfa: Yes
+      sms: Yes
+      phone: Yes
+      exceptions:
+          text: "Some Windows tablets such as the Surface use the desktop application from Symantec and therefore are not compatible with MSU 2FA."
+      doc: http://techbase.msu.edu/article.asp?id=22801
+
     - name: Oplerno
       url: https://enroll.oplerno.com/
       img: oplerno.png
@@ -158,6 +168,7 @@ websites:
       tfa: Yes
       hardware: Yes
       exceptions:
+          link: Yes
           text: "U2F support only for school admin accounts. 2FA for parent accounts is in progress."
       doc: http://knowhow.pushcoin.com/using-security-key-for-2-step-verification/
 
@@ -204,7 +215,7 @@ websites:
       img: udemy.png
       tfa: No
 
-    - name: University of Michigan
+    - name: University of Michigan (U-M)
       url: https://www.umich.edu
       img: umich.png
       tfa: Yes
